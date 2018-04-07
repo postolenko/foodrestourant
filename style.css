@@ -478,7 +478,7 @@ textarea:focus {
     background: #f6f4f4;
     background: rgba(246, 244, 244, 1);
     padding: 13px 0 16px 0;
-    z-index: 3;
+    z-index: 6;
 }
 
 .header .col {
