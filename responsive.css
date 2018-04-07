@@ -1,23 +1,461 @@
 @media only screen and (max-width: 1280px) {
 
-	
+	.row {
+		padding: 0 2%;
+	}
+
+}
+
+@media only screen and (max-width: 1124px) {
+
+	/*-- Footer --*/
+
+	.main-nav {
+	    margin: 9px -5px;
+	}
+
+	.main-nav li {
+	    padding: 5px 5px;
+	}
+
+	/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	/*-- Footer --*/
+
+	.footer-row-1 .left {
+	    width: 100%;
+	    float: none;
+	    border-right: none;
+	    text-align: center;
+	    padding: 8px 0;
+	}
+
+	.footer-row-1 .right {
+	    width: 100%;
+	    float: none;
+	    border-right: none;
+	    text-align: center;
+	    padding: 8px 0;
+	}
+
+	.main-nav {
+	    margin: 9px -15px;
+	}
+
+	.main-nav li {
+	    padding: 5px 15px;
+	}
+
+	/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 900px) {
+
+	/*-- Section 3 --*/
+
+	.thumbnails-1 {
+	    margin-top: 21px;
+	}
+
+	.thumb-1 {
+	    width: 33.33%;
+	}
+
+	/*-- /Section 3 --*/
+
+	/*-- Section 4 --*/
+
+	.thumb-2 .thumb-descript {
+	    width: 100%;
+	    margin: 0;
+	    background: rgba(255, 255, 255, .75);
+	}
+
+	.thumb-2 .img-box {
+	    width: 100%;
+	}
+
+	.thumbnails-2 .right_th .img-box {
+	    left: 0;
+	}
+
+	.thumbnails-2 .thumb-2.right_th + .thumb-2 .img-box {
+	    left: 0;
+	}
+
+	.thumb-2 .th-foter {
+	    padding: 10px 4% 20px 4%;
+	}
+
+	/*-- /Section 4 --*/
+
+	/*-- /Section 6 --*/
+
+	.thumb-3 {
+	    width: 50%;
+	}
+
+	/*-- /Section 6 --*/
 
 }
 
 @media only screen and (max-width: 768px) {
 
-	
+	h1 {
+		text-align: center;
+	    font-size: 48px;
+	    line-height: 54px;
+	}
+
+	.row {
+		padding: 0 15px;
+	}
+
+	.tab-novisible {
+		display: none !important;
+	}
+
+	/*-- Header --*/
+
+	.header {
+		width: 100%;
+	    background: rgba(246, 244, 244, .95);
+	    padding: 0;
+		position: fixed;
+		top: 0;
+		left: 0;
+		-webkit-box-shadow: 0 5px 5px 0 rgba(0, 0,0, .3);
+		-moz-box-shadow: 0 5px 5px 0 rgba(0, 0,0, .3);
+		box-shadow: 0 5px 5px 0 rgba(0, 0,0, .3);
+	}
+
+	.header .col-2 .inner-col {
+	    margin-left: 0;
+	}
+
+	/*-- /Header --*/
+
+	/*-- Section 1 --*/
+
+	.promo {
+		min-height: auto;
+	    padding: 40px 0 30px 0;
+	    background-image: url(img/promo_bg_resp.jpg);
+	}
+
+	.promo:after {
+	    background-image: url(img/promo_img_resp.png);
+	    background-position: center;
+	    background-size: 100%;
+	}
+
+	.promo .row .center {
+	    display: none;
+	}
+
+	.promo-txt {
+		width: 100%;
+	    margin: 90px 0 40px 0;
+	}
+
+	.delivery-box {
+		margin: 51px auto 0 auto;
+	}
+
+	.right-col {
+		width: 100%;
+	}
+
+	/*-- /Section 1 --*/
+
+	/*-- Section 2 --*/
+
+	.search-box_wrapp {
+	    padding: 29px 2% 0 2%;
+	}
+
+	.search-box input {
+	    padding: 0 70px 0 8px;
+	}
+
+	.searc-btn {
+	    width: 50px;
+	}
+
+	.searc-btn .search_icon {
+	    margin-right: -6px;
+	}
+
+	.searc-btn span {
+		display: none;
+	}
+
+	.nav-1 {
+	    margin: 9px -3%;
+	}
+
+	.nav-1 li {
+	    width: 27%;
+	    margin: 0 3%;
+	}
+
+	/*-- /Section 2 --*/
+
+	/*-- Section 3 --*/
+
+	.thumb-1 {
+	    width: 50%;
+	}
+
+	/*-- /Section 3 --*/
+
+	/*-- Section 5 --*/
+
+	.article-1 .left {
+	    display: none;
+	}
+
+	.article-1 .right {
+	    width: 100%;
+	    padding: 35px 0;
+	    text-align: center;
+	}
+
+	.article-1 .logo_2 {
+	    margin: 0 auto 27px auto;
+	}
+
+	/*-- /Section 5 --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.novisible-600 {
+		display: none !important;
+	}
+
+	/*-- Header --*/
+
+	.header .col-1 {
+	    width: 45%;
+	}
+
+	.header .col-2 {
+	    width: 55%;
+	}
+
+	.basket_link {
+	    margin-left: 0;
+	}
+
+	.sign-in {
+	    margin-left: 9px;
+	}
+
+	/*-- /Header --*/
+
+	/*-- Section 1 --*/
+
+	.discount {
+		top: 64px;
+	    left: 51%;
+	    font-size: 19px;
+	}
+
+	/*-- /Section 1 --*/
+
+	/*-- Section 2 --*/
+
+	.nav-1 {
+	    margin: 9px 0;
+	}
+
+	.nav-1 li {
+	    width: 100%;
+	    margin: 0;
+	}
+
+	.search-type {
+	    margin: 5px 0;
+	}
+
+	/*-- /Section 2 --*/
+
+	/*-- /Section 6 --*/
+
+	.thumbnails-3 {
+	    margin: 25px 0;
+	}
+
+	.thumb-3 {
+	    width: 100%;
+	    padding: 15px 0;
+	}
+
+	/*-- /Section 6 --*/
 
 }
 
 @media only screen and (max-width: 480px) {
 
-	
-	
+	.h-box h2 {
+	    padding: 0;
+	}
+
+	.h-box .shape {
+		display: none;
+	}
+
+	/*-- Section 1 --*/
+
+	.delivery-box {
+	    padding: 20px 5px 19px 8px;
+	}
+
+	.delivery-box > .col-1 {
+	    width: 109px;
+	}
+
+	.delivery-box .col-1 p {
+	    font-size: 17px;
+	    line-height: 24px;
+	}
+
+	.delivery-box .circle_1 {
+	    top: 7px;
+	    right: 8px;
+	}
+
+	/*-- /Section 1 --*/
+
+	/*-- Section 3 --*/
+
+	.thumbnails-1 {
+	    margin: 36px 0 24px 0;
+	}
+
+	.thumb-1 {
+		display: block;
+		width: 100%;
+		max-width: 380px;
+		padding: 15px 0;
+		margin: 0 auto;
+	}
+
+	/*-- /Section 3 --*/
+
+	/*-- Section 4 --*/
+
+	.thumbnails-2 {
+	    margin: 52px 0 39px 0;
+	}
+
+	.thumb-2 {
+		display: block;
+	    width: 100%;
+	    margin: 0 auto;
+	    padding: 15px 0;
+	}
+
+	/*-- /Section 4 --*/
+
+	/*-- Section 5 --*/
+
+	.article-1 h3 {
+	    font-size: 31px;
+	    line-height: 37px;
+	}
+
+	.article-1 h3 .small {
+	    font-size: 21px;
+	    line-height: 24px;
+	}
+
+	/*-- /Section 5 --*/
+
+	/*-- Section 6 --*/
+
+	.sect-6 {
+	    padding: 10px 0 30px 0;
+	}
+
+	/*-- /Section 6 --*/
+
+	/*-- Footer --*/
+
+	.footer-row-2 p.corp {
+	    font-size: 17px;
+	    line-height: 17px;
+	    font-weight: normal;
+	}
+
+	.tel-link {
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+	.footer-row-2 p {
+		padding: 5px 0;
+	    font-size: 16px;
+		line-height: 16px;
+	}
+
+	/*-- /Footer --*/
+
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
 
-	
+	/*-- Section 1 --*/
+
+	.discount {
+		top: 89px;
+		left: 47%;
+	}
+
+	/*-- /Section 1 --*/
+
+	/*-- Footer --*/
+
+	.footer-row-2 .left {
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	    padding: 10px 0;
+	}
+
+	.footer-row-2 .right {
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	    padding: 10px 0;
+	}
+
+	.main-nav li a {
+	    font-size: 16px;
+	    line-height: 16px;
+	    font-weight: normal;
+	}
+
+	/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 350px) {
+
+	/*-- Section 1 --*/
+
+	.discount {
+		top: 107px;
+		left: 78px;
+	}
+
+	/*-- /Section 1 --*/
 
 }
